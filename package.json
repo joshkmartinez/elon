@@ -1,0 +1,22 @@
+{
+  "name": "elon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "deploy": "now --target production"
+  },
+  "keywords": [
+    "elon"
+  ],
+  "author": "Joshua Martinez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.16.4"
+  },
+  "devDependencies": {
+    "now": "^15.2.0"
+  }
+}

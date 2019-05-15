@@ -1,0 +1,15 @@
+{
+  "name": "Elon Musk",
+  "alias": ["elon", "musk", "elon-musk", "elonMusk"],
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@now/node-server",
+      "config": { "maxLambdaSize": "42mb" }
+    }
+  ],
+  "github": {
+    "silent": true
+  }
+}
